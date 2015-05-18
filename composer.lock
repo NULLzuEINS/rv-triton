@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "a9adee99333bbdd529258c0de30b58b6",
+    "hash": "f25465489683c4c790c1beb02ee9fd1e",
     "packages": [
         {
             "name": "composer/installers",
@@ -184,16 +184,56 @@
             "time": "2013-09-09 15:04:54"
         },
         {
-            "name": "wpackagist-theme/hueman",
-            "version": "1.5.6",
+            "name": "wpackagist-plugin/ical-for-wp-calendar",
+            "version": "1.5.1",
             "source": {
                 "type": "svn",
-                "url": "http://themes.svn.wordpress.org/hueman/",
-                "reference": "1.5.6"
+                "url": "http://plugins.svn.wordpress.org/ical-for-wp-calendar/",
+                "reference": "tags/1.5.1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/theme/hueman.1.5.6.zip",
+                "url": "https://downloads.wordpress.org/plugin/ical-for-wp-calendar.1.5.1.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/ical-for-wp-calendar/"
+        },
+        {
+            "name": "wpackagist-plugin/wp-calendar",
+            "version": "1.5.3",
+            "source": {
+                "type": "svn",
+                "url": "http://plugins.svn.wordpress.org/wp-calendar/",
+                "reference": "tags/1.5.3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/wp-calendar.1.5.3.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/wp-calendar/"
+        },
+        {
+            "name": "wpackagist-theme/hemingway",
+            "version": "1.48",
+            "source": {
+                "type": "svn",
+                "url": "http://themes.svn.wordpress.org/hemingway/",
+                "reference": "1.48"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/theme/hemingway.1.48.zip",
                 "reference": null,
                 "shasum": null
             },
@@ -201,7 +241,27 @@
                 "composer/installers": "~1.0"
             },
             "type": "wordpress-theme",
-            "homepage": "https://wordpress.org/themes/hueman/"
+            "homepage": "https://wordpress.org/themes/hemingway/"
+        },
+        {
+            "name": "wpackagist-theme/spacious",
+            "version": "1.2.6",
+            "source": {
+                "type": "svn",
+                "url": "http://themes.svn.wordpress.org/spacious/",
+                "reference": "1.2.6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/theme/spacious.1.2.6.zip",
+                "reference": null,
+                "shasum": null
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-theme",
+            "homepage": "https://wordpress.org/themes/spacious/"
         }
     ],
     "packages-dev": [],

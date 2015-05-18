@@ -1,0 +1,23 @@
+{
+  "name": "vergissberlin/rv-triton",
+  "description": "RV Triton Blog",
+  "repositories":[
+    {
+      "type":"composer",
+      "url":"http://wpackagist.org"
+    }
+  ],
+  "require": {
+    "php": ">=5.4",
+    "johnpbloch/wordpress": "4.2.2",
+    "wpackagist-theme/hueman": "*"
+  },
+  "extra": {
+    "wordpress-install-dir": "wp",
+    "installer-paths": {
+      "wp/wp-content/themes/{$name}/": [
+        "wpackagist-theme/hueman"
+      ]
+    }
+  }
+}

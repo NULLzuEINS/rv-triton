@@ -10,8 +10,10 @@
   "require": {
     "php": ">=5.3.10",
     "johnpbloch/wordpress": "4.2.2",
-    "wpackagist-plugin/ical-for-wp-calendar": "*",
+    "wpackagist-plugin/google": "*",
     "wpackagist-plugin/wp-calendar": "*",
+    "wpackagist-plugin/ical-for-wp-calendar": "*",
+    "wpackagist-plugin/google-calendar-widget": "*",
     "wpackagist-theme/hemingway": "*",
     "wpackagist-theme/spacious": "*"
   },
@@ -23,8 +25,10 @@
         "wpackagist-theme/spacious"
       ],
       "wp/wp-content/plugins/{$name}/": [
+        "wpackagist-plugin/google",
         "wpackagist-plugin/wp-calendar",
-        "wpackagist-plugin/ical-for-wp-calendar"
+        "wpackagist-plugin/ical-for-wp-calendar",
+        "wpackagist-plugin/google-calendar-widget"
       ]
     }
   }

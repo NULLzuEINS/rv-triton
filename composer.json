@@ -13,6 +13,7 @@
     "wpackagist-plugin/ical-for-wp-calendar": "*",
     "wpackagist-plugin/google": "*",
     "wpackagist-plugin/google-calendar-widget": "*",
+    "wpackagist-plugin/simple-wp-sitemap": "*",
     "wpackagist-plugin/updraftplus": "*",
     "wpackagist-plugin/wp-calendar": "*",
     "wpackagist-theme/hemingway": "*",
@@ -29,6 +30,7 @@
         "wpackagist-plugin/ical-for-wp-calendar",
         "wpackagist-plugin/google",
         "wpackagist-plugin/google-calendar-widget",
+        "wpackagist-plugin/simple-wp-sitemap",
         "wpackagist-plugin/updraftplus",
         "wpackagist-plugin/wp-calendar"
       ]

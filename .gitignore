@@ -51,7 +51,9 @@ wp/wp-content/plugins/hello.php
 wp/readme.html
 wp/license.txt
 
-
+/web/
+/wp-content/
+wp-config.php
 
 ### JetBrains template
 # Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion
